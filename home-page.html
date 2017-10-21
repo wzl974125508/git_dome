@@ -1,0 +1,179 @@
+<div ng-controller="aaa">
+	<div class="swiper-container swiper1">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img ng-src="{{swiper}}"/>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="navbox">
+		<a ng-repeat="x in navbox" href="{{x.href}}">
+			<img ng-src="{{x.img}}"/>
+			<p>{{x.txt}}</p>
+		</a>
+	</div>
+	<div class="allDecorate">
+		<div class="allDecorate-div1">
+			<p>全屋装修</p>
+			<p>包设计、包主材、包水电、包施工</p>
+		</div>
+		<div class="swiper-container swiper2">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/1首页_spec_24.png"/>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="allDecorate-div2">
+			<p>
+				<span class="iconfont icon-zero"><span>0增项，标准施工</span></span>
+				
+			</p>
+			<p>
+				<span class="iconfont icon-protection-fill"><span>杜绝项目外包</span></span>
+				
+			</p>
+			<p>
+				<span class="iconfont icon-price"><span>装修贷款</span></span>
+			</p>
+		</div>
+	</div>
+	<div class="appointment">
+		<div class="appointment-div1">
+			<p>装修预约</p>
+			<p>免费上门量房，设计方案满意为止</p>
+		</div>
+		<div class="appointment-div2">
+			<input type="text" placeholder="小区名"/>
+			<input type="tel" placeholder="手机号"/>
+			<input type="text" placeholder="建筑面积"/>
+			<input type="button" value="立即申请" />
+		</div>
+	</div>
+	<div class="designer">
+		<div class="designer-div1">
+			<p>设计师</p>
+		</div>
+		<ul class="designer-div2">
+			<li ng-repeat="x in designer">
+				<img ng-src="{{x.img}}" alt="" />
+				<p>{{x.name}}</p>
+				<button>{{x.btn}}</button>
+			</li>
+		</ul>
+		<div class="designer-div3">
+			<p>
+				<span>换一换</span><span class="iconfont icon-change"></span>
+			</p>
+			<p>
+				<span>更多设计师</span><span class="iconfont icon-more"></span>
+			</p>
+		</div>
+	</div>
+	<div class="impression-drawing">
+		<div class="impression-drawing-div1">
+			<p>效果图</p>
+		</div>
+		<ul class="impression-drawing-img">
+			<li ng-repeat="x in drawing">
+				<img ng-src="{{x}}" alt="" />
+			</li>
+		</ul>
+		<div class="impression-drawing-div3">
+			<p>
+				<span>换一换</span><span class="iconfont icon-change"></span>
+			</p>
+			<p>
+				<span>更多设计师</span><span class="iconfont icon-more"></span>
+			</p>
+		</div>
+	</div>
+	<div class="live-broadcast">
+		<div class="live-broadcast-div1">
+			<p>工地直播</p>
+		</div>
+		<div>
+			<img src="img/1首页_spec_49.png" alt="" />
+		</div>
+		<div class="live-broadcast-div2">
+			<span>重汽嘉泽苑7栋</span>
+			<span>泥木工程</span>
+		</div>
+		<div class="live-broadcast-div3">
+			<p>
+				<span>换一换</span><span class="iconfont icon-change"></span>
+			</p>
+			<p>
+				<span>更多工地直播</span><span class="iconfont icon-more"></span>
+			</p>
+		</div>
+	</div>
+	<div class="baodian">
+		<div class="baodian-div1">
+			<p>装修攻略</p>
+		</div>
+		
+		<div class="baodian-div2">
+			<div>
+				<img src="img/1首页_spec_56.png" alt="" />
+			</div>
+			<div>
+				<p>房子交付要验房，验房师是做什么的？</p>
+				<p>
+					<span class="iconfont icon-time">2016-07-07</span>
+					<span class="iconfont icon-view">115</span>
+				</p>
+			</div>
+		</div>
+		<div class="baodian-div2">
+			<div>
+				<img src="img/1首页_spec_54.png" alt="" />
+			</div>
+			<div>
+				<p>能让你涨工资的家居风水</p>
+				<p>
+					<span class="iconfont icon-time">2016-07-07</span>
+					<span class="iconfont icon-view">115</span>
+				</p>
+			</div>
+		</div>
+		<div class="baodian-div2">
+			<div>
+				<img src="img/1首页_spec_56.png" alt="" />
+			</div>
+			<div>
+				<p>遇到有这样房子的男人就嫁了吧</p>
+				<p>
+					<span class="iconfont icon-time">2016-07-07</span>
+					<span class="iconfont icon-view">115</span>
+				</p>
+			</div>
+		</div>
+		
+		<div class="baodian-div3">
+			<p>
+				<span>换一换</span><span class="iconfont icon-change"></span>
+			</p>
+			<p>
+				<span>更多装修攻略</span><span class="iconfont icon-more"></span>
+			</p>
+		</div>
+	</div>
+	<div class="synopsis">
+		方先森互联网假装有别于传统装修公司与其他装修 中介品台，以自营模式整合设计师与项目经理，杜绝项目转包外包，利用互联网将工地进行在线全景直播，通过去中间缓解，提供装修套餐+个性化定制服务。
+	</div>
+	<div class="footer">
+		<span class="iconfont icon-hot-line"><i>服务热线：400-9977-658</i></span>
+		<div>
+			<p>电脑版</p>
+			<p>触屏版</p>
+			<p>关于我们</p>
+			<p>联系我们</p>
+		</div>
+		<div>
+			&copy;2016 sirfang.com刚需房装修就找方先森
+		</div>
+	</div>
+</div>

@@ -1,0 +1,469 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#four{
+        header>div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h5{
+                font-size: 0.9rem;
+                text-align: left;
+                font-weight: 300;
+            }
+            span{
+                padding: .329rem .37121rem ;
+                img{
+                    width: 5.2rem;
+                }
+            }
+            >div{
+                    width: 20%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    text-align: center;
+                    p{
+                        font-size: 0.5278rem;
+                        color: #B6B6B6;
+                        text-align: center;
+                    }
+                    span:nth-child(1){
+                        font-size: 0.924rem;
+                        color: #B6B6B6;
+                    }
+                }
+            }
+         .ul{
+             border-bottom: 1px solid gainsboro;
+                display: flex;
+                justify-content: space-around;
+                height: 2.062rem;
+                align-items: center;
+                text-align: center;
+                li{
+                    width: 25%;
+                    font-size: 0.742rem;
+                    color: #000;
+                    border-right: 1px solid #f4f4f4;
+                    text-align: center;
+                    i{
+                        width: 0.5153rem;
+                        height: 0.31rem;
+                        color: #999;
+                        margin-left: 0.5rem;
+                    }
+                }
+                li:nth-child(4){
+                    i{
+                        font-size: 1rem;
+                        color: #39C994;
+                     }
+                }
+            }
+            article{
+                    padding: 0.25rem 0.264rem;
+                    background: #F4F4F4;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    
+                    li{
+                        background: white;
+                        width: 7.22rem;
+                        margin-bottom: 0.25rem;
+                        img{
+                            width: 7.22rem;
+                        }
+                        p:nth-of-type(1){
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            text-align: center;
+                            color: #000;
+                            font-size: 0.76rem;
+                            padding: 0.52rem 0 0.412rem 0;
+                        }
+                        p:nth-of-type(2){
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            font-size: 0.412rem;
+                            color: #999;
+                            margin: 0 !important;
+                            padding: 0.52rem 0 0.412rem 0;
+                            
+                        }
+                    }
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        padding: 0.75rem 0;
+                        margin: 0 auto;
+                        button{
+                            width: 35%;
+                            border: none;
+                            background: #39C893;
+                            color: white;
+                            font-size: 0.75rem;
+                            padding:0.2rem 1.35rem;
+                        }
+                        input{
+                            width: 35%;
+                            border: 1px #eaeaea;
+                            text-align: center;
+                        }
+                    }
+                    .onep{
+                        background: white;
+                        padding: 0.28rem;
+                        font-size: 0.7rem;
+                        color: gray;
+                        text-indent: 1.5rem;
+                    }
+            }
+        footer{
+            p{
+                text-align: center;
+                font-size: 0.72rem;
+                padding: 0.5rem;
+                color: gray;
+            }
+            ul{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                font-size: 0.72rem;
+                padding: 0.2rem;
+                
+                li{
+                    width: 25%;
+                }
+                li:hover{
+                    color: #43CC99;
+                }
+            }
+        }
+        .fix{
+                width: 2rem;
+                height: 2rem;
+                position: fixed;
+                border: 1px solid gainsboro;
+                border-radius: 50%;
+                z-index: 2;
+                right: 0.5rem;
+                bottom: 13%;
+                background: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    font-size: 0.84rem;
+                    color: #9c9c9c;
+                }
+             
+            }
+            .advertising{
+              display: flex;
+              align-items: center;
+              background: #000 url("../img/quoten_bottom.png") no-repeat;
+              background-position: 20% top;
+              opacity: .8;
+              height: 2.2rem;
+              width: 100%;
+              position: fixed;
+              bottom: 0;
+              li{
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 3;
+                font-size: .5rem;
+                padding: .1rem;
+               border-bottom-right-radius: 100%;
+                background: #38C993;
+                span{
+                  font-size: .5rem;
+                  color: #FFF;
+                }
+              }
+              button{
+                color: #FFF;
+                background: #FBB405;
+                position: absolute;
+                right: 5%;
+                z-index: 4;
+                width: 3.6rem;
+                height: 1.1rem;
+                border-radius: .5rem;
+                font-size: .5rem;
+              }
+            }
+}
+@mixin head1(){
+     header>div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h5{
+                font-size: 0.9rem;
+                text-align: left;
+                font-weight: 300;
+            }
+            span{
+                padding: .329rem .37121rem ;
+                img{
+                    width: 5.2rem;
+                }
+            }
+            >div{
+                    width: 20%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    text-align: center;
+                    p{
+                        font-size: 0.5278rem;
+                        color: #B6B6B6;
+                        text-align: center;
+                    }
+                    span:nth-child(1){
+                        font-size: 0.924rem;
+                        color: #B6B6B6;
+                    }
+                }
+            }
+         .ul{
+             border-bottom: 1px solid gainsboro;
+                display: flex;
+                justify-content: space-around;
+                height: 2.062rem;
+                align-items: center;
+                text-align: center;
+                li{
+                    width: 25%;
+                    font-size: 0.742rem;
+                    color: #000;
+                    border-right: 1px solid #f4f4f4;
+                    text-align: center;
+                    i{
+                        width: 0.5153rem;
+                        height: 0.31rem;
+                        color: #999;
+                        margin-left: 0.5rem;
+                    }
+                }
+                li:nth-child(4){
+                    i{
+                        font-size: 1rem;
+                        color: #39C994;
+                     }
+                }
+            }
+}
+@mixin butt1(){
+    article{
+        >div{
+            display: flex;
+            justify-content: center;
+            padding: 0.75rem 0;
+            margin: 0 auto;
+            button{
+                width: 35%;
+                border: none;
+                background: #39C893;
+                color: white;
+                font-size: 0.75rem;
+                padding:0.2rem 1.35rem;
+            }
+            input{
+                width: 35%;
+                border: 1px #eaeaea;
+                text-align: center;
+            }
+        }
+        .onep{
+            background: white;
+            padding: 0.28rem;
+            font-size: 0.7rem;
+            color: gray;
+            text-indent: 1.5rem;
+        }
+    }
+     
+}
+@mixin foot1(){
+     footer{
+            p{
+                text-align: center;
+                font-size: 0.72rem;
+                padding: 0.5rem;
+                color: gray;
+            }
+            ul{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                font-size: 0.72rem;
+                padding: 0.2rem;
+                
+                li{
+                    width: 25%;
+                }
+                li:hover{
+                    color: #43CC99;
+                }
+            }
+        }
+        .advertising{
+              display: flex;
+              align-items: center;
+              background: #000 url("../img/quoten_bottom.png") no-repeat;
+              background-position: 20% top;
+              opacity: .8;
+              height: 2.2rem;
+              width: 100%;
+              position: fixed;
+              bottom: 0;
+              li{
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 3;
+                font-size: .5rem;
+                padding: .1rem;
+               border-bottom-right-radius: 100%;
+                background: #38C993;
+                span{
+                  font-size: .5rem;
+                  color: #FFF;
+                }
+              }
+              button{
+                color: #FFF;
+                background: #FBB405;
+                position: absolute;
+                right: 5%;
+                z-index: 4;
+                width: 3.6rem;
+                height: 1.1rem;
+                border-radius: .5rem;
+                font-size: .5rem;
+              }
+            }
+}
+@mixin fix(){
+    .fix{
+                width: 2rem;
+                height: 2rem;
+                position: fixed;
+                border: 1px solid gainsboro;
+                border-radius: 50%;
+                z-index: 2;
+                right: 0.5rem;
+                bottom: 13%;
+                background: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    font-size: 0.84rem;
+                    color: #9c9c9c;
+                }
+             
+            }
+            .advertising{
+              display: flex;
+              align-items: center;
+              background: #000 url("../img/quoten_bottom.png") no-repeat;
+              background-position: 20% top;
+              opacity: .8;
+              height: 2.2rem;
+              width: 100%;
+              position: fixed;
+              bottom: 0;
+              li{
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 3;
+                font-size: .5rem;
+                padding: .1rem;
+               border-bottom-right-radius: 100%;
+                background: #38C993;
+                span{
+                  font-size: .5rem;
+                  color: #FFF;
+                }
+              }
+              button{
+                color: #FFF;
+                background: #FBB405;
+                position: absolute;
+                right: 5%;
+                z-index: 4;
+                width: 3.6rem;
+                height: 1.1rem;
+                border-radius: .5rem;
+                font-size: .5rem;
+              }
+            }
+}
+#ten{
+    @include head1();
+    @include butt1();
+    @include foot1();
+    aside{
+        >div{
+            border-bottom: 1px solid gainsboro;
+            display: flex;
+            div:nth-of-type(1){
+                padding: 0.6rem 0.53rem;
+                width: 5.9rem;
+                img{
+                    width: 5.9rem;
+                    height: 4.1rem;
+                }
+            }
+            div:nth-of-type(2){
+                width: 50%;
+                padding: 0.7rem 0rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h5{
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    font-size: 0.75rem;
+                    font-weight: 400;
+                }
+                p:nth-of-type(1){
+                    span{
+                       background: #39CA95; 
+                       color: white;
+                       font-size: 0.4rem;
+                       padding: 0.15rem;
+                       border-radius: 0.2rem;
+                    }
+                }
+                p:nth-of-type(2){
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    text-align: center;
+                    color: gray;
+                    font-size: 0.58rem;
+                    i{
+                        font-size: 0.5rem;
+                        margin-right: 0.2rem;
+                    }
+                }
+            }
+        }
+    }
+    @include fix()
+}
+

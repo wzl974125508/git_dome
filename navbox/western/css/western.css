@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.app-western {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0.18rem 0.16rem;
+  border-bottom: 2px solid #F4F4F4; }
+  .app-western div:nth-of-type(1) span {
+    font-size: 0.6rem;
+    color: #9A9A9A; }
+  .app-western div:nth-of-type(2) {
+    font-size: 0.48rem; }
+  .app-western div:nth-of-type(3) {
+    text-align: center; }
+    .app-western div:nth-of-type(3) span {
+      font-size: 0.44rem;
+      color: #9A9A9A; }
+    .app-western div:nth-of-type(3) p {
+      font-size: 0.293rem;
+      color: #9A9A9A; }
+
+#swiper {
+  width: 100%;
+  padding-top: 1.39rem;
+  background: #202020;
+  padding-bottom: 0.88rem;
+  border-bottom: 18px solid #F4F4F4; }
+  #swiper img {
+    width: 100%; }
+  #swiper ul li {
+    text-align: center; }
+    #swiper ul li p {
+      color: #38C793;
+      margin-bottom: 0.89rem; }
+  #swiper .radio {
+    display: flex;
+    justify-content: space-around; }
+    #swiper .radio .radio-o {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      border: 4px solid #38C793;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 46px 0 30px 0; }
+      #swiper .radio .radio-o .radio-n {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%; }
+    #swiper .radio .active {
+      background: #38C793; }
+  #swiper div:nth-last-of-type(1) {
+    box-sizing: border-box;
+    padding: 0 16px;
+    font-size: 0.48rem;
+    color: #FEFEFE; }
+
+.synopsis {
+  width: 100%;
+  padding: 0.48rem 16px;
+  border-bottom: 18px solid #F4F4F4;
+  font-size: 28px;
+  text-indent: 58px;
+  box-sizing: border-box;
+  text-align: center; }
+
+.footer {
+  width: 100%;
+  text-align: center; }
+  .footer span {
+    font-size: 36px;
+    color: #00BE9C;
+    display: inline-block;
+    padding: 0.453rem; }
+    .footer span i {
+      color: #000; }
+  .footer div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    padding-bottom: 0.453rem;
+    border-bottom: 1px solid #F4F4F4; }
+    .footer div:nth-of-type(1) p:nth-of-type(1) {
+      color: #00BE9C; }
+  .footer div:nth-of-type(2) {
+    font-size: 18px;
+    color: #9A9A9A; }
+
+/*# sourceMappingURL=western.css.map */

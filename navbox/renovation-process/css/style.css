@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.app-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0.18rem 0.16rem; }
+  .app-nav img {
+    width: 2.14rem;
+    height: 0.73rem; }
+  .app-nav div {
+    text-align: center; }
+    .app-nav div span {
+      display: inline-block;
+      font-size: 33px; }
+    .app-nav div p {
+      font-size: 22px; }
+
+.image {
+  font-size: 0; }
+  .image img {
+    width: 100%; }
+  .image .image-parent {
+    position: relative; }
+    .image .image-parent .image-txt {
+      position: absolute;
+      font-size: 0.373rem; }
+    .image .image-parent .txt1 {
+      font-size: 0.48rem;
+      color: #ff4351;
+      top: 0.6667rem;
+      left: 1.2rem; }
+    .image .image-parent .txt2 {
+      top: 2.56rem;
+      left: 2.3rem; }
+    .image .image-parent .txt3 {
+      top: 4.6667rem;
+      right: 2.3rem; }
+    .image .image-parent .txt4 {
+      top: 6.73rem;
+      left: 2.3rem; }
+    .image .image-parent .txt5 {
+      top: 8.82rem;
+      right: 2.3rem; }
+    .image .image-parent .txt6 {
+      font-size: 0.48rem;
+      color: #1B9AF6;
+      top: 0.6667rem;
+      right: 1.3rem; }
+    .image .image-parent .txt7 {
+      top: 2.7rem;
+      right: 2.3rem; }
+    .image .image-parent .txt8 {
+      top: 4.86rem;
+      left: 2.3rem; }
+    .image .image-parent .txt9 {
+      top: 6.98rem;
+      right: 2.3rem; }
+    .image .image-parent .txt10 {
+      top: 9.12rem;
+      left: 2.3rem; }
+    .image .image-parent .txt11 {
+      font-size: 0.48rem;
+      color: #7A73E7;
+      top: 0.66rem;
+      left: 1.2rem; }
+    .image .image-parent .txt12 {
+      top: 2.6rem;
+      left: 2.3rem; }
+    .image .image-parent .txt13 {
+      top: 4.63rem;
+      right: 2.3rem; }
+    .image .image-parent .txt14 {
+      top: 6.73rem;
+      left: 2.3rem; }
+    .image .image-parent .txt15 {
+      top: 8.86rem;
+      right: 2.3rem; }
+
+.synopsis {
+  padding: 0.48rem 16px;
+  border-bottom: 18px solid #F4F4F4;
+  font-size: 28px;
+  text-indent: 1.1rem; }
+
+.footer {
+  width: 100%;
+  text-align: center; }
+  .footer span {
+    font-size: 36px;
+    color: #00BE9C;
+    display: inline-block;
+    padding: 0.453rem; }
+    .footer span i {
+      color: #000; }
+  .footer div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    padding-bottom: 0.453rem;
+    border-bottom: 1px solid #F4F4F4; }
+    .footer div:nth-of-type(1) p:nth-of-type(1) {
+      color: #00BE9C; }
+  .footer div:nth-of-type(2) {
+    font-size: 18px;
+    color: #9A9A9A; }
+
+/*# sourceMappingURL=style.css.map */

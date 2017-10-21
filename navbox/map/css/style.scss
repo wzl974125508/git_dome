@@ -1,0 +1,163 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#allmap{
+    width: 100%;
+    height: 200px;
+//  border: 1px solid red;
+    
+    }
+//头部
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    >div:nth-of-type(1) {
+        width: 45%;
+        >img {
+            width: 80%;
+            margin: 0.16rem 0.5rem 0.16rem 0.14rem;
+        }
+    }
+    >div:nth-of-type(2) {
+        witdh: 35%;
+        font-size: 0.34rem;
+        margin: 0.3rem 0.1rem 0.3rem 0.2rem;
+        font-weight: bold;
+        color: #000;
+    }
+    >div:nth-of-type(3) {
+        witdh: 20%;
+        margin-left: 0.2rem;
+        display: flex;
+        width: 18%;
+        text-align: center;
+        justify-content: space-between;
+        font-size: 0.22rem;
+        color: #999;
+        >p {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            >span:nth-child(1) {
+                font-size: 0.45rem;
+                display: inline-block;
+                margin-top: -0.2rem;
+            }
+            >span:nth-child(2) {
+                display: inline-block;
+            }
+        }
+    }
+}
+//banner
+//.banner {
+//  >img {
+//      width: 100%;
+//      display: flex;
+//  }
+//}
+//类
+.main {
+    display: flex;
+    font-size: 0.28rem;
+    color: #333;
+    padding: 0.36rem 0.4rem 0.45rem 0.4rem;
+    >li:nth-child(1) {
+        text-align: center;
+        width: 50%;
+        >p:nth-child(1) {
+            width: 1.2rem;
+            height: 1.2rem;
+            line-height: 1.2rem;
+            background: #39C893;
+            border-radius: 50%;
+            margin: 0 auto;
+            color: white;
+            .icon-location {
+                font-size: 0.7rem;
+            }
+        }
+        >p:nth-child(2) {
+            font-size: 0.28rem;
+            color: #000;
+            margin-top: 0.32rem;
+        }
+    }
+    >li:nth-child(2) {
+        text-align: center;
+        width: 50%;
+        >p:nth-child(1) {
+            width: 1.2rem;
+            height: 1.2rem;
+            line-height: 1.2rem;
+            background: #39C893;
+            border-radius: 50%;
+            margin: 0 auto;
+            color: white;
+            .icon-tel {
+                font-size: 1.2rem;
+            }
+        }
+        >p:nth-child(2) {
+            font-size: 0.28rem;
+            color: #333;
+            margin-top: 0.32rem;
+        }
+    }
+}
+//二维码
+.er {
+    width: 100%;
+    height: 3.85rem;
+    background: #EAEAEA;
+    padding: 0.25rem;
+    text-align: center;
+    font-size: 0.28rem;
+    p:nth-child(1) {
+        img {
+            width: 2.68rem;
+            height: 2.68rem;
+        }
+    }
+    p:nth-child(2) {
+        padding: 0.45rem;
+        text-align: center;
+    }
+}
+
+.footer {
+    color: #333;
+    font-size: 0.32rem;
+    >p:nth-child(1) {
+        border-top: 0.2rem solid #F4F4F4;
+        text-indent: 0.5rem;
+        padding: 0.3rem;
+    }
+    >div {
+        border-top: 0.2rem solid #F4F4F4;
+        >p:nth-child(1) {
+            text-align: center;
+            padding: 0.2rem;
+        }
+        >ul:nth-child(2) {
+            display: flex;
+            justify-content: space-around;
+            padding: 0.2rem;
+            border-bottom: 1px solid #EAEAEA;
+            padding: 0.24rem;
+            li:nth-child(1) {
+                color: #2bb281;
+            }
+        }
+        >p:nth-child(3) {
+            text-align: center;
+            font-size: 0.24rem;
+            padding: 0.3rem;
+        }
+    }
+}

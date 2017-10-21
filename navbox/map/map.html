@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<script src="js/only.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/only.js"></script>
+		<title></title>
+		<script src="http://api.map.baidu.com/api?v=1.4" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div class="a">
+		<!--导航栏-->
+			<header>
+				<div><img src="img/logo.png"/></div>
+				<div>联系我们</div>
+				<div>
+						<p>
+							<span class="iconfont icon-user"></span>
+							<span>我的</span>
+						</p>
+						<p>
+							<span class="iconfont icon-nav"></span>
+							<span>导航</span>
+						</p>
+				</div>
+			</header>
+			<!--banner-->
+			<!--<div class="banner">
+				<img src="img/map.jpg"/>
+			</div>-->
+			 <div id="allmap"></div>
+			<!--类-->
+			<ul class="main">
+				<li>
+					<p><span class="icon iconfont icon-location"></span></p>
+					<p>杭州市滨江区长河街道越达巷79号连连大厦A撞301</p>
+				</li>
+				<li>
+					<p><span class="icon iconfont icon-tel"></span></p>
+					<p>400-9977-658</p>
+				</li>
+			</ul>
+			<!--二维码-->
+			<div class="er">
+				<p><img src="img/ewm.png"/></p>
+				<p>长按识别二维码关注微信咨询</p>
+			</div>
+			<!--结尾-->
+			<div class="footer">
+				<p>
+					房先森互联网家装有别于传统装修公司与其他装修中介平台，
+					以自营模式整合设计师与项目经理，
+					杜绝项目转包外包，
+					利用互联网将工地进行在线全景直播
+					，通过去中环节，提供装修  + 个性化定制服务。
+				</p>
+				<div>
+					<p>服务热线：400-9977-658</p>
+					<ul>
+						<li>触摸板</li>
+						<li>电脑版</li>
+						<li>关于我们</li>
+						<li>联系我们</li>
+					</ul>
+					<p>2016 sirfang.com 刚需要房装修就找房先森</p>
+				</div>
+				<div class="tu">
+					<span class="iconfont icon"></span>
+				</div>
+			</div>
+		</div>	
+	</body>
+	<script type="text/javascript">
+		// 百度地图API功能
+	    var map = new BMap.Map("allmap");    // 创建Map实例
+	    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+	    map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	    map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+	    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	</script>
+</html>

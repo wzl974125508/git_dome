@@ -1,0 +1,21 @@
+{
+	"swiper":"img/banner.jpg",
+	"navbox":[
+	          {'href':'navbox/decorating-scheme/decorating-scheme.html','img':'img/1首页_spec_03.png','txt':"装修方案"},
+	          {'href':'navbox/impression-drawing/impression-drawing.html','img':'img/1首页_spec_05.png','txt':"效果图"},
+	          {'href':'navbox/designer/designer.html','img':'img/1首页_spec_07.png','txt':"设计师"},
+	          {'href':'navbox/decoration-site/decoration-site.html','img':'img/1首页_spec_09.png','txt':"装修工地"},
+	          {'href':'navbox/baodian/baodian.html','img':'img/1首页_spec_15.png','txt':"装修攻略"},
+	          {'href':'navbox/improvement-loan/improvement-loan.html','img':'img/1首页_spec_16.png','txt':"装修贷款"},
+	          {'href':'navbox/free-booking/free-booking.html','img':'img/1首页_spec_17.png','txt':"免费预约"},
+	          {'href':'navbox/ten-quotations/ten-quotations.html','img':'img/1首页_spec_18.png','txt':"十秒报价"}
+	          ],
+	 "designer":[
+	     {"img":"img/1首页_spec_27.png","name":"吴飞柯","btn":"优秀"},
+	     {"img":"img/1首页_spec_29.png","name":"陆炎龙","btn":"主任"},
+	     {"img":"img/1首页_spec_31.png","name":"张海建","btn":"总监"},
+	     {"img":"img/1首页_spec_33.png","name":"陈冲","btn":"优秀"}
+	     ],
+	 "drawing":["img/1首页_spec_38.png","img/1首页_spec_40.png","img/1首页_spec_42.png","img/1首页_spec_45.png","img/1首页_spec_46.png"]
+	
+}
